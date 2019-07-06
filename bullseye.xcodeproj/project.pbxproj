@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23AFCA9222D079B6000B08C4 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AFCA9122D079B6000B08C4 /* AboutViewController.swift */; };
 		23C6C7AB22B8B41600F6EEC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C6C7AA22B8B41600F6EEC2 /* AppDelegate.swift */; };
 		23C6C7AD22B8B41600F6EEC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C6C7AC22B8B41600F6EEC2 /* ViewController.swift */; };
 		23C6C7B022B8B41600F6EEC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C6C7AE22B8B41600F6EEC2 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23AFCA9122D079B6000B08C4 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		23C6C7A722B8B41600F6EEC2 /* bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23C6C7AA22B8B41600F6EEC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23C6C7AC22B8B41600F6EEC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				23C6C7AA22B8B41600F6EEC2 /* AppDelegate.swift */,
 				23C6C7AC22B8B41600F6EEC2 /* ViewController.swift */,
 				23C6C7AE22B8B41600F6EEC2 /* Main.storyboard */,
+				23AFCA9122D079B6000B08C4 /* AboutViewController.swift */,
 				23C6C7B122B8B41900F6EEC2 /* Assets.xcassets */,
 				23C6C7B322B8B41900F6EEC2 /* LaunchScreen.storyboard */,
 				23C6C7B622B8B41900F6EEC2 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23AFCA9222D079B6000B08C4 /* AboutViewController.swift in Sources */,
 				23C6C7AD22B8B41600F6EEC2 /* ViewController.swift in Sources */,
 				23C6C7AB22B8B41600F6EEC2 /* AppDelegate.swift in Sources */,
 			);

@@ -34,14 +34,18 @@ class ViewController: UIViewController {
 //            difference = difference * -1
 //        }
         let difference = abs(targetValue - currentValue)
-        let points = 100 - difference
+        var points = 100 - difference
         score += points
         
         let title: String
         if difference == 0 {
             title = "Perfect"
+            points += 100
         } else if difference < 5 {
             title = "You almost had it"
+            if difference == 1 {
+                points += 50
+            }
         } else if difference < 10 {
             title = "Pretty good!"
         } else {
